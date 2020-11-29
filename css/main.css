@@ -1,0 +1,32 @@
+body {
+    background-color: #CEB5A7;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #587B7F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size:.5rem;
+}
+
+.bg-cover {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.navbar-custom {
+    background-color: #587B7F;
+}
+
+/*bg-custom navbar-light*/

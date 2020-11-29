@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:background-size="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>
-        Livia Loi
-    </title>
+    <title>Livia Loi</title>
     <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
           crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-
 </head>
 <body>
 <div class="container-fluid">
     <div class="row">
         <nav class="navbar navbar-expand-md
                     justify-content-start
-                    navbar-custom navbar-dark
+                    bg-dark navbar-dark
                     col-12">
 
             <!-- Brand -->
@@ -37,9 +34,7 @@
                         </a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="resume.html">Resume</a>
-                        </div>
-                    </li>
-                    <!-- Links -->
+                            <!-- Links -->
                     <li class="nav-item">
                         <a class="nav-link" href="projects.html">Projects</a>
                     </li>
@@ -51,68 +46,38 @@
         </nav>
 
     </div>
+    <div class="container">
     <div class="row">
-        <p class="col-1">Col 1</p>
-        <p class="col-1">Col 2</p>
-        <p class="col-1">Col 3</p>
-        <p class="col-1">Col 4</p>
-        <p class="col-1">Col 5</p>
-        <p class="col-1">Col 6</p>
-        <p class="col-1">Col 7</p>
-        <p class="col-1">Col 8</p>
-        <p class="col-1">Col 9</p>
-        <p class="col-1">Col 10</p>
-        <p class="col-1">Col 11</p>
-        <p class="col-1">Col 12</p>
-
-        <!-- <div class="col-sm-4  text-center">
-            <h2>h2 Bootstrap heading (24px)</h2>
-            <h3>h2 Bootstrap heading (18px)</h3>
-        </div> -->
-    </div>
-    <div class="row">
-
-        <div class="col-md-9">
-            <div class="jumbotron bg-cover" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(https://placeimg.com/1000/480/tech)">
-                <div class="container">
-                    <p class="lead">text</p>
-                    <h2 class="display-4"> text</h2>
-                    <hr class="my-4">
-                    <hr class="my-4">
-                    <hr class="my-4">
-                    <hr class="my-4">
-                    <hr class="my-4">
-                    <hr class="my-6">
-                </div>
-
-                <!-- /.container   -->
+        <form action="">
+            <div class="form-group">
+                <label for="firstname">First Name:</label>
+                <input type="text" class="form-control" id="firstname"
+                       placeholder="First name" name="firstname">
             </div>
-        </div>
-        <div class="column">
-        <div class="card text-black mb-3" style="max-width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Primary card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="form-group">
+                <label for="lastname">Last Name:</label>
+                <input type="text" class="form-control" id="lastname"
+                       placeholder="Last name" name="lastname">
             </div>
-        </div>
-        <div class="card text-black mb-3" style="max-width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Secondary card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make up the bulk of</p>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email"
+                       placeholder="Enter email" name="email">
             </div>
-        </div>
-        </div>
-
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input"
+                           type="checkbox" name="subscribe"> Subscribe
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
-
     </div>
-
     <footer class="footer page-footer font-small ">
         <div class="container">
             <div class="row">
-                <span class="text">&copy; Livia Loi, 2020 |  Terms Of Use  |  Privacy Statement</span>
+                <span class="text-muted">&copy; Livia Loi, 2020 |  Terms Of Use  |  Privacy Statement</span>
             </div>
         </div>
     </footer>

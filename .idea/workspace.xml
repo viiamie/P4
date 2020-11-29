@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25ced610-e4d1-4c85-80fb-07071a1b6301" name="Default Changelist" comment="" />
+    <list default="true" id="25ced610-e4d1-4c85-80fb-07071a1b6301" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/projects.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/resume.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1k71eEFFyLoxRkDLidOGpUi1b6w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +62,7 @@
       <workItem from="1606262944552" duration="654000" />
       <workItem from="1606459644780" duration="2176000" />
       <workItem from="1606544665767" duration="3235000" />
-      <workItem from="1606596079073" duration="5374000" />
+      <workItem from="1606596079073" duration="16408000" />
     </task>
     <servers />
   </component>
@@ -54,9 +70,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="262" y="0" key="CommitChangelistDialog2" timestamp="1606603016151">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1606603016151" />
     <state x="15" y="190" key="FileChooserDialogImpl" timestamp="1606600639026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="15" y="190" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606600639026" />
+    <state x="504" y="238" key="Github.ShareDialog" timestamp="1606602325565">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="504" y="238" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1606602325565" />
+    <state x="411" y="45" key="Github.UntrackedFilesDialog" timestamp="1606602354668">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="411" y="45" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606602354668" />
+    <state x="362" y="82" width="540" height="524" key="StructurePopup" timestamp="1606606437524">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="362" y="82" width="540" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1606606437524" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1606602411488">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606602411488" />
   </component>
 </project>

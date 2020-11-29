@@ -9,7 +9,7 @@
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about.css">
 
 </head>
 <body>
@@ -17,7 +17,7 @@
     <div class="row">
         <nav class="navbar navbar-expand-md
                     justify-content-start
-                    navbar-custom navbar-dark
+                    bg-dark navbar-dark
                     col-12">
 
             <!-- Brand -->
@@ -64,55 +64,39 @@
         <p class="col-1">Col 10</p>
         <p class="col-1">Col 11</p>
         <p class="col-1">Col 12</p>
-
-        <!-- <div class="col-sm-4  text-center">
-            <h2>h2 Bootstrap heading (24px)</h2>
-            <h3>h2 Bootstrap heading (18px)</h3>
-        </div> -->
     </div>
-    <div class="row">
-
-        <div class="col-md-9">
-            <div class="jumbotron bg-cover" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(https://placeimg.com/1000/480/tech)">
-                <div class="container">
-                    <p class="lead">text</p>
-                    <h2 class="display-4"> text</h2>
-                    <hr class="my-4">
-                    <hr class="my-4">
-                    <hr class="my-4">
-                    <hr class="my-4">
-                    <hr class="my-4">
-                    <hr class="my-6">
+    <div class="container">
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
-
-                <!-- /.container   -->
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
             </div>
         </div>
-        <div class="column">
-        <div class="card text-black mb-3" style="max-width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Primary card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-        </div>
-        <div class="card text-black mb-3" style="max-width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Secondary card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make up the bulk of</p>
-            </div>
-        </div>
+    </div>
         </div>
 
     </div>
-
-    </div>
-
     <footer class="footer page-footer font-small ">
         <div class="container">
             <div class="row">
-                <span class="text">&copy; Livia Loi, 2020 |  Terms Of Use  |  Privacy Statement</span>
+                <span class="text-muted">&copy; Livia Loi, 2020 |  Terms Of Use  |  Privacy Statement</span>
             </div>
         </div>
     </footer>
@@ -128,5 +112,20 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+<script>$(document).ready(function() {
+// executes when HTML-Document is loaded and DOM is ready
+    console.log("document is ready");
+
+
+    $( ".card" ).hover(
+        function() {
+            $(this).addClass('shadow-lg').css('cursor', 'pointer');
+        }, function() {
+            $(this).removeClass('shadow-lg');
+        }
+    );
+
+// document ready
+});</script>
 </body>
 </html>
