@@ -6,14 +6,17 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #587B7F;
+    background-color: #83A0A0;
     color: white;
     text-align: center;
     padding: 10px;
     font-size:.5rem;
 }
-
+.jumbotron{
+    padding-top: 20px;
+}
 .bg-cover {
+    padding-top: 20px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,7 +29,7 @@ body {
 }
 
 .navbar-custom {
-    background-color: #587B7F;
+    background-color: #83A0A0;
 }
 
 /*bg-custom navbar-light*/

@@ -1,13 +1,17 @@
+body {
+    background-color: #CEB5A7;
+}
+
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: lightgrey;
+    background-color: #83A0A0;
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: .75rem;
+    font-size:.5rem;
 }
 
 section {
@@ -103,4 +107,8 @@ article h2 {
 article h3 {
     font-size: 105%;
     padding-bottom: .25em;
+}
+
+.navbar-custom {
+    background-color: #83A0A0;
 }

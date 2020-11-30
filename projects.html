@@ -17,7 +17,7 @@
     <div class="row">
         <nav class="navbar navbar-expand-md
                     justify-content-start
-                    bg-dark navbar-dark
+                    navbar-custom navbar-dark
                     col-12">
 
             <!-- Brand -->
@@ -31,8 +31,7 @@
                 <ul class="navbar-nav">
                     <!-- Dropdown -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="about.html" id="navbardrop"
-                           data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" id="navbardrop">
                             About
                         </a>
                         <div class="dropdown-menu">
@@ -51,41 +50,37 @@
         </nav>
 
     </div>
-    <div class="row">
-        <p class="col-1">Col 1</p>
-        <p class="col-1">Col 2</p>
-        <p class="col-1">Col 3</p>
-        <p class="col-1">Col 4</p>
-        <p class="col-1">Col 5</p>
-        <p class="col-1">Col 6</p>
-        <p class="col-1">Col 7</p>
-        <p class="col-1">Col 8</p>
-        <p class="col-1">Col 9</p>
-        <p class="col-1">Col 10</p>
-        <p class="col-1">Col 11</p>
-        <p class="col-1">Col 12</p>
-    </div>
+
     <div class="container">
         <div class="card-deck">
             <div class="card">
                 <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Project Title</h5>
+                    <p class="card-text">description of project
+                        <br>
+                        <br>
+                        <a href="#" target="_blank">Github</a></p>
                 </div>
             </div>
             <div class="card">
                 <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title">Project Title</h5>
+                    <p class="card-text">description of project
+                        <br>
+                        <br>
+                        <a href="#" target="_blank">Github</a></p>
                 </div>
             </div>
             <div class="card">
                 <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <h5 class="card-title">Project Title</h5>
+                    <p class="card-text">description of project
+                        <br>
+                        <br>
+                        <a href="#" target="_blank">Github</a></p>
                 </div>
             </div>
         </div>
@@ -96,7 +91,7 @@
     <footer class="footer page-footer font-small ">
         <div class="container">
             <div class="row">
-                <span class="text-muted">&copy; Livia Loi, 2020 |  Terms Of Use  |  Privacy Statement</span>
+                <span class="text">&copy; Livia Loi, 2020 |  Terms Of Use  |  Privacy Statement</span>
             </div>
         </div>
     </footer>
@@ -112,11 +107,9 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-<script>$(document).ready(function() {
-// executes when HTML-Document is loaded and DOM is ready
-    console.log("document is ready");
 
-
+<script>
+    $(document).ready(function() {
     $( ".card" ).hover(
         function() {
             $(this).addClass('shadow-lg').css('cursor', 'pointer');
@@ -124,8 +117,8 @@
             $(this).removeClass('shadow-lg');
         }
     );
+});
+</script>
 
-// document ready
-});</script>
 </body>
 </html>
