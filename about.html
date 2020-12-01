@@ -55,7 +55,7 @@
 
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="https://dummyimage.com/600x500/000/fff" alt="Card image cap">
+                <img class="card-img-top" src="https://dummyimage.com/600x500/000/fff" alt="placeholder image">
                 <div class="card-body">
                     <p class="card-text">text</p>
                 </div>
@@ -71,7 +71,7 @@
                 <div class="card-body">
                     <p class="card-text">text</p>
                 </div>
-                <img class="card-img-top" src="https://dummyimage.com/600x500/000/fff" alt="Card image cap">
+                <img class="card-img-top" src="https://dummyimage.com/600x500/000/fff" alt="placeholder image">
             </div>
         </div>
 
@@ -96,20 +96,17 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
-<script>$(document).ready(function() {
-// executes when HTML-Document is loaded and DOM is ready
-console.log("document is ready");
+<script>
+    $(document).ready(function() {
+        $( ".card" ).hover(
+            function() {
+                $(this).addClass('shadow-lg').css('cursor', 'pointer');
+            }, function() {
+                $(this).removeClass('shadow-lg');
+            }
+        );
+    });
+</script>
 
-
-$( ".card" ).hover(
-function() {
-$(this).addClass('shadow-lg').css('cursor', 'pointer');
-}, function() {
-$(this).removeClass('shadow-lg');
-}
-);
-
-// document ready
-});</script>
 </body>
 </html>

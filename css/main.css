@@ -12,8 +12,8 @@ body {
     padding: 10px;
     font-size:.5rem;
 }
-.jumbotron{
-    padding-top: 20px;
+.jumbotron {
+    margin: 10px;
 }
 .bg-cover {
     padding-top: 20px;
@@ -26,10 +26,81 @@ body {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
 }
 
 .navbar-custom {
     background-color: #83A0A0;
 }
 
-/*bg-custom navbar-light*/
+.form-group {
+    padding-top: 10px;
+}
+
+p {
+    font-size: 90%;
+}
+/* media queries */
+
+/* small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+
+}
+
+/* medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/*media query for a tablet in portrait view*/
+@media only screen and (max-width: 959px) {
+    section h1 {
+        font-size: 135%;
+    }
+    section h2, aside h2 {
+        font-size: 120%;
+    }
+}
+
+/* media query for a phone in landscape orientation */
+@media only screen and (max-width: 767px) {
+    header {
+        text-align: center;
+    }
+    section {
+        float: none;
+        width: 95%;                     /* 100 - (2 x 2.5) for padding */
+    }
+    aside {
+        float: none;
+        padding-right: 2.5%;           /* 20 / 800 x 100 */
+        width: 95%;                    /* 100 - (2 x 2.5) for padding */
+    }
+
+    #nav_menu {
+        display: none;
+    }
+    #mobile_menu {
+        display: block;
+    }
+    .slicknav_menu {
+        background-color: #800000 !important;
+    }
+}
+
+/* media query for a phone in portrait orientation */
+@media only screen and (max-width: 479px) {
+    body {
+        font-size: 90%;
+    }
+}

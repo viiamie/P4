@@ -4,7 +4,6 @@
     <list default="true" id="25ced610-e4d1-4c85-80fb-07071a1b6301" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/projects.css" afterDir="false" />
@@ -62,7 +61,10 @@
       <workItem from="1606459644780" duration="2176000" />
       <workItem from="1606544665767" duration="3235000" />
       <workItem from="1606596079073" duration="16465000" />
-      <workItem from="1606699811517" duration="7113000" />
+      <workItem from="1606699811517" duration="7148000" />
+      <workItem from="1606754208228" duration="599000" />
+      <workItem from="1606772546067" duration="7125000" />
+      <workItem from="1606797793704" duration="688000" />
     </task>
     <task id="LOCAL-00001" summary="HTML and CSS for individual pages">
       <created>1606635871564</created>
@@ -71,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606635871564</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HTML and CSS for individual pages">
+      <created>1606714527710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606714527710</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,10 +91,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="HTML and CSS for individual pages" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="262" y="0" key="CommitChangelistDialog2" timestamp="1606635870306">
+    <state x="262" y="0" key="CommitChangelistDialog2" timestamp="1606714526488">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1606635870306" />
+    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1606714526488" />
     <state x="15" y="190" key="FileChooserDialogImpl" timestamp="1606600639026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
